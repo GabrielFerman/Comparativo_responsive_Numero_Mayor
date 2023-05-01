@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Numero_Mayor</title>
+</head>
+<body>
+    <div class="container_main">
+        <div class="container_bienvenida">
+            <div class="container_texto">
+                <h1>Bienvenido</h1>
+            </div>
+            <div class="container_texto_1">
+                <p>Esta pagina determina de dos numeros cual es el mayor</p>
+            </div>
+        </div>
+        <div class="container_numero">
+            <div class="container_texto_2">
+                <p class="numero">Por favor escribe el primer numero que quieres comparar</p>
+                <input type="number" name="numero_uno" id="primer_numero">
+            </div>
+            <div class="container_texto_3">
+                <p class="numero">Por favor escribe el segundo numero que quieres comparar</p>
+                <input type="number" name="numero_dos" id="segundo_numero">
+            </div>
+        </div>
+        <div class="container_resultado">
+            <div class="container_texto_4">
+                <p class="numero">Presiona en siguiente boton para hacer la comparacion</p>
+                <button onclick="comparar()">Comparar</button>
+            </div>
+            <div class="container_texto_5">
+                <p class="final">En este caso el numero mayor entre a y b es:</p>
+                <p id="resultado">?</p>
+                <button onclick="limpiar()">Limpiar</button>
+            </div>
+        </div>     
+    </div>
+</body>
+</html>
